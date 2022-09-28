@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combination</title>
+</head>
+<body>
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bg-image{
+            background-image:url("img.jpg");
+            height: 100%;
+            background-position: center;
+            opacity: 0.1;
+
+        }
+        .bg-text { 
+                color: rgb(197, 193, 193);
+                font-weight: bold;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                width: 80%;
+        }
+        td{
+            border-spacing: 20px;
+        }
+        tr {
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <h1 style="font-size:xx-large" style="font-family:'Gill Sans';" style="color:whitesmoke ;" align="center">What's the Difference?</h1>
+
+        <table align="center">
+            <tr>
+                <td><img src="html icon.png" height="100" width="90" ></td>
+                <td>HTML<br>Hypertext Markup Language</td>
+                <td>
+                    <ul style="font-family:'Gill Sans';">
+                        <li style="font-size:x-large ;">Create the Structure</li>
+                        <li>Controls the Layout of the content</li>
+                        <li>Provides structure for the web page design</li>
+                        <li>The fundamental building block of any web page</li>
+                    </ul>
+
+                </td>
+            </tr><br><br>
+            <tr>
+                <td><img src="CSS3_logo.png" height="100" width="90" ></td>
+                <td> CSS<br>Cascading Style Sheet</td>
+                <td>
+                    <ul style="font-family:'Gill Sans';">
+                        <li style="font-size:x-large ;">Stylize the website</li>
+                        <li>Applies style to the webpage elements</li>
+                        <li>Targets various screen sizes to make web pages responsive</li>
+                        <li>Primarily handles the "look and feel" of a webpage</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="javascript.png" height="100" width="90" ></td>
+                <td>JavaScript</td>
+                <td>
+                    <ul style="font-family:'Gill Sans';">
+                        <li style="font-size:x-large ;">Increase interactivity</li>
+                        <li>Adds interactivity to a webpage</li>
+                        <li>Handles complex functions and features</li>
+                        <li>Programmatic code which enhances functionality</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
